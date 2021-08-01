@@ -1,13 +1,13 @@
 # POLMO - Advanced Air pollution monitoring system
 
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/get-started/) [![Website](https://img.shields.io/badge/View-Website-blue)](https://sample-project.s3-web.us-east.cloud-object-storage.appdomain.cloud/)
+[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/get-started/) ![GitHub last commit](https://img.shields.io/github/last-commit/HarinarayananP/Air-polution-monitoring) ![GitHub repo size](https://img.shields.io/github/repo-size/HarinarayananP/Air-polution-monitoring) [![Website](https://img.shields.io/badge/View-Website-blue)](#)
 
 A basic GitHub repository example for new [Call for Code](https://developer.ibm.com/callforcode/) projects and those that join the Call for Code with The Linux Foundation deployment initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need. And don't forget to [register for Call for Code 2021](https://developer.ibm.com/callforcode/get-started/)!
 
 
 ## Contents
 
-- [Submission or project name](#submission-or-project-name)
+- [Polmo Project](#polmo-advanced-air-pollution-monitoring-system)
   - [Contents](#contents)
   - [Short description](#short-description)
     - [What's the problem?](#whats-the-problem)
@@ -21,10 +21,8 @@ A basic GitHub repository example for new [Call for Code](https://developer.ibm.
   - [Live demo](#live-demo)
   - [Built with](#built-with)
   - [Contributing](#contributing)
-  - [Versioning](#versioning)
   - [Authors](#authors)
   - [License](#license)
-  - [Acknowledgments](#acknowledgments)
 
 ## Short description
 
@@ -60,11 +58,10 @@ It's imperative that learning and creating can continue when educational institu
 ## Project roadmap
 
 The project currently does the following things.
-
-- Feature 1
-- Feature 2
-- Feature 3
-
+- Sense Major Pollutants.
+- Sent readings seperatly to IBM Watson IOT cloud.
+- Display Realtime data at Webendpoint
+- Provide API to fetch Realtime and historical data.
 
 See below for our past road map before Call for Code 2021 submission.
 
@@ -75,9 +72,8 @@ See below for our past road map before Call for Code 2021 submission.
 
 In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
-- [sample-react-app](./sample-react-app/)
-- [sample-angular-app](./sample-angular-app/)
-- [Explore other projects](https://github.com/upkarlidder/ibmhacks)
+- [Polmo Hardware](./'POLMO Sofware'/)
+- [Polmo Software](./'POLMO Hardware'/)
 
 ## Live demo
 
@@ -94,23 +90,23 @@ Live demo link will be uploaded very soon.
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
 ## Authors
 
 <a href="https://github.com/HarinarayananP/Air-polution-monitoring/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
 </a>
 
-- **Harinarayanan P** - [PurpleBooth](https://github.com/amjed-ali-k)
-- **Amjed Ali K** - [PurpleBooth](https://github.com/amjed-ali-k)
+- **Harinarayanan P** - [GitHub](https://github.com/HarinarayananP)
+- **Amjed Ali K** - [GitHub](https://github.com/amjed-ali-k)
 
 ## License
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## Acknoledgemnt
 
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+We sincerly inform our gratitudes to
+- [Sebastián Ramírez] (https://github.com/tiangolo) - For FastAPI framework
+- [Creative Tim] (https://www.creative-tim.com/) - For Argon free dashboard template
+- [Webkom] (https://github.com/0wczar/airframe-react) - For a beautiful react Dashboard
+- [Freepik] (https://free-pik.com) - For design files and templates
+- All family, friends, collegues who helped and appreciated us in this journey.

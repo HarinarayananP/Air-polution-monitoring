@@ -1,31 +1,15 @@
-# Submission name
+### POLMO
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia nisi ut fringilla sodales. Etiam elementum a arcu vel fringilla. Nulla ac efficitur felis. In a nisi bibendum, efficitur felis vel, consectetur quam. Aenean ornare justo velit, sed malesuada massa efficitur ut. Sed non augue vel risus tempus lacinia ac nec est. Nunc vel finibus felis. Vivamus felis diam, porta sed rhoncus eu, luctus eget justo. 
+Air pollution degrades the air quality and is a major concern all around the world for human beings and the ecosystem. Air pollution is the presence of gases, solid or liquid dust
+particles called particulates, or smoke in the atmosphere which makes harms to humans, animals, plants, agricultural crops, and our environment. More than 80% of the world population lives in places where AQI (Air Quality Index) level exceeds the safe level WHO limits.
+Toxic gases such as Carbon Monoxide(CO), Nitrogen Dioxide(NO2), Sulphur Dioxide(SO2), Ozone(O3), Greenhouse gases such as Methane(CH4), Carbon Dioxide(CO2), and particulate matters(tiny solid or liquid particles) namely PM2.5 and PM10 are the major air pollutants.
 
-Mauris odio ante, rhoncus et varius vel, vulputate et enim. Aliquam erat volutpat. Proin lacinia libero velit, a dictum sapien ultricies quis. Vivamus dolor nibh, efficitur in ipsum vitae, faucibus eleifend felis. Praesent consectetur turpis sit amet lorem tempor cursus. Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
+Agricultural crops can be injured when exposed to high concentrations of various air pollutants. Injury ranges from markings on the foliage to reduce growth, yield, and even premature death of the plant. In a recent study, researchers have analyzed 30 years of data on yields of wheat and rice alongside data on air pollution and climate change in India and concluded that significant decreases in yield could be attributed due to air pollutants. Up to 90% of the decrease in potential food production seems to be linked to air pollution while the remaining 10% link to global warming. If proper warning can be given to farmers using pollution related information and predictions, precautions can be taken to protect plants and plan for the right cultivation time. Thus, regular monitoring and controlling air pollution leads to an increase in the yield of agricultural and livestock products.
 
-[Project website](https://sample-project.s3-web.us-east.cloud-object-storage.appdomain.cloud/)
+The first step to control air pollution is continuously monitoring the pollution level and comparing it with the ambient air quality standards issued by authorities. Real-time and continuous monitoring systems are the new trends in air quality monitoring globally. CAAQMS (Continuous Ambient Air Quality Monitoring Stations) uses gas analyzers and is housed in a temperature controlled room. It is implemented on loT Technology for automatic data collection to the central server. But it is very costly to install and maintain and thus not suitable for dense deployment. The air quality changes drastically over hundreds of metres, and therefore localized low cost systems for air pollution monitoring are required. Sensor-loT-Cloud based design is a good solution to solve this problem.
+Thus, we developed a low-cost, low-power, and portable cloud-based real-time air pollution monitoring system, “POLMO” over IBM cloud service platform intended to deploy in farmland areas to give pollution related information to farmers for sustainable crop production.
 
-## Section 1
+“IBM Watson” loT toos is used for connecting different sensors and devices. Python “Flask” is developed and deployed using IBM cloud foundry. Node-Red flows made it easier to post, process data and store to IBM cloudantDB. Each reading is capsulated with time, origin and location ID using Node-Red. Initially, sensor nodes with a single sensor unit are deployed and data are observed continuously for a long period to ensure the functionality and stability of sensors. ESP8266 based NodeMCU is used in the sensor node to collect and send the sensor data to the cloud server over Wi-Fi. Field level clean air calibration is conducted for
+measurement accuracy. Later an array sensor node is designed, developed, and fabricated by integrating 11 sensors and a NodeMCU as a single embedded system to use as an loT end device. Public API endpoint is made using fast API for the public to query data from different clients and apps. React.js dashboard provides real time sensor data visualization. The data collected are compared and analyzed with the National Pollution Control Board standards and obtained accuracy more than that expected.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia nisi ut fringilla sodales. Etiam elementum a arcu vel fringilla. Nulla ac efficitur felis. In a nisi bibendum, efficitur felis vel, consectetur quam. Aenean ornare justo velit, sed malesuada massa efficitur ut. Sed non augue vel risus tempus lacinia ac nec est. Nunc vel finibus felis. Vivamus felis diam, porta sed rhoncus eu, luctus eget justo. 
-
-### Subsection 1.1
-
-Mauris odio ante, rhoncus et varius vel, vulputate et enim. Aliquam erat volutpat. Proin lacinia libero velit, a dictum sapien ultricies quis. Vivamus dolor nibh, efficitur in ipsum vitae, faucibus eleifend felis.
-
-### Subsection 1.2
-
-Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
-
-## Conclusion
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia nisi ut fringilla sodales. Etiam elementum a arcu vel fringilla. Nulla ac efficitur felis. In a nisi bibendum, efficitur felis vel, consectetur quam. Aenean ornare justo velit, sed malesuada massa efficitur ut. Sed non augue vel risus tempus lacinia ac nec est. Nunc vel finibus felis. Vivamus felis diam, porta sed rhoncus eu, luctus eget justo. 
-
-### Results
-
-Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
-
-## Acknowledgments
-
-Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
+We reached the end of the road of the first phase of the “POLLMO” project. So far everything was a success. Now we are looking forward to the second phase by deploying multiple array sensor nodes over a large geographical area by wide-area deployment and wireless interconnection of multiple nodes using low power WAN, development of pluggable sensor nodes in smart city networks, development of separate hardware for urban, rural, and industrial areas, indoor configuration for industries, and much more are our future plans.
