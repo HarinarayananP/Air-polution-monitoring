@@ -1,13 +1,13 @@
 # POLMO - Advanced Air pollution monitoring system
 
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/get-started/) [![Website](https://img.shields.io/badge/View-Website-blue)](https://sample-project.s3-web.us-east.cloud-object-storage.appdomain.cloud/)
+[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/get-started/) [![Website](https://img.shields.io/badge/View-Website-blue)](https://sample-project.s3-web.us-east.cloud-object-storage.appdomain.cloud/)![Gitlab code coverage](https://img.shields.io/gitlab/coverage/HarinarayananP/Air-polution-monitoring/main)
 
 A basic GitHub repository example for new [Call for Code](https://developer.ibm.com/callforcode/) projects and those that join the Call for Code with The Linux Foundation deployment initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need. And don't forget to [register for Call for Code 2021](https://developer.ibm.com/callforcode/get-started/)!
 
 
 ## Contents
 
-- [Submission or project name](#submission-or-project-name)
+- [Polmo Project](#polmo-advanced-air-pollution-monitoring-system)
   - [Contents](#contents)
   - [Short description](#short-description)
     - [What's the problem?](#whats-the-problem)
@@ -72,8 +72,8 @@ See below for our past road map before Call for Code 2021 submission.
 
 In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
-- [Plomo Hardware](./sample-react-app/)
-- [Polmo Software](./sample-angular-app/)
+- [Polmo Hardware](./'POLMO Sofware'/)
+- [Polmo Software](./'POLMO Hardware'/)
 
 ## Live demo
 
@@ -95,8 +95,8 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 <a href="https://github.com/HarinarayananP/Air-polution-monitoring/graphs/contributors">
 </a>
 
-- **Harinarayanan P** - [PurpleBooth](https://github.com/HarinarayananP)
-- **Amjed Ali K** - [PurpleBooth](https://github.com/amjed-ali-k)
+- **Harinarayanan P** - [GitHub](https://github.com/HarinarayananP)
+- **Amjed Ali K** - [GitHub](https://github.com/amjed-ali-k)
 
 ## License
 
