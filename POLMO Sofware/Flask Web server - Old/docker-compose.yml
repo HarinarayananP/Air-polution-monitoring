@@ -1,0 +1,35 @@
+version: '3'
+services:
+  appseed-app:
+    restart: always
+    env_file: .env
+    build: .
+    ports:
+      - "5006:5006"
+    networks:
+      - db_network
+      - web_network
+#  worker:
+#    build:
+#      context: .
+#    command: celery worker -B -l info -A snakeeyes.blueprints.contact.tasks
+#    depends_on:
+#      - appseed-app
+#    env_file:
+#      - ".env"
+  nginx:
+    restart: always
+    image: "nginx:latest"
+    ports:
+      - "85:85"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    networks:
+      - web_network
+    depends_on: 
+      - appseed-app
+networks:
+  db_network:
+    driver: bridge
+  web_network:
+    driver: bridge
