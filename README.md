@@ -21,10 +21,8 @@ A basic GitHub repository example for new [Call for Code](https://developer.ibm.
   - [Live demo](#live-demo)
   - [Built with](#built-with)
   - [Contributing](#contributing)
-  - [Versioning](#versioning)
   - [Authors](#authors)
   - [License](#license)
-  - [Acknowledgments](#acknowledgments)
 
 ## Short description
 
@@ -60,11 +58,10 @@ It's imperative that learning and creating can continue when educational institu
 ## Project roadmap
 
 The project currently does the following things.
-
-- Feature 1
-- Feature 2
-- Feature 3
-
+- Sense Major Pollutants.
+- Sent readings seperatly to IBM Watson IOT cloud.
+- Display Realtime data at Webendpoint
+- Provide API to fetch Realtime and historical data.
 
 See below for our past road map before Call for Code 2021 submission.
 
@@ -75,9 +72,8 @@ See below for our past road map before Call for Code 2021 submission.
 
 In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
-- [sample-react-app](./sample-react-app/)
-- [sample-angular-app](./sample-angular-app/)
-- [Explore other projects](https://github.com/upkarlidder/ibmhacks)
+- [Plomo Hardware](./sample-react-app/)
+- [Polmo Software](./sample-angular-app/)
 
 ## Live demo
 
@@ -94,23 +90,23 @@ Live demo link will be uploaded very soon.
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
 ## Authors
 
 <a href="https://github.com/HarinarayananP/Air-polution-monitoring/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
 </a>
 
-- **Harinarayanan P** - [PurpleBooth](https://github.com/amjed-ali-k)
+- **Harinarayanan P** - [PurpleBooth](https://github.com/HarinarayananP)
 - **Amjed Ali K** - [PurpleBooth](https://github.com/amjed-ali-k)
 
 ## License
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## Acknoledgemnt
 
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+We sincerly inform our gratitudes to
+- [Sebastián Ramírez] (https://github.com/tiangolo) - For FastAPI framework
+- [Creative Tim] (https://www.creative-tim.com/) - For Argon free dashboard template
+- [Webkom] (https://github.com/0wczar/airframe-react) - For a beautiful react Dashboard
+- [Freepik] (https://free-pik.com) - For design files and templates
+- All family, friends, collegues who helped and appreciated us in this journey.
