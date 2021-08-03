@@ -1,17 +1,22 @@
-import logo from './Call_for_Code_logo.png';
-import './App.css';
+import React from 'react';
 
-function App() {
+import { BrowserRouter as Router } from 'react-router-dom';
+
+import AppLayout from './layout/default';
+import {ProtectedRoutedContent, RoutedContent} from './routes';
+import {getUser} from "./services/auth";
+
+const basePath = process.env.BASE_PATH || '/';
+const user = getUser()
+const AppClient = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo}  alt="Call for Code" />
-        <p>
-          Welcome to Call for Code Sample Project!
-        </p>
-      </header>
-    </div>
+      <Router basename={ basePath }>
+        <AppLayout>
+            {user && <ProtectedRoutedContent />}
+            {!user && <RoutedContent />}
+        </AppLayout>
+      </Router>
   );
 }
 
-export default App;
+export default AppClient;
