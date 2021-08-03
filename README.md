@@ -108,5 +108,5 @@ We sincerly inform our gratitudes to
 - [Sebastián Ramírez] (https://github.com/tiangolo) - For FastAPI framework
 - [Creative Tim] (https://www.creative-tim.com/) - For Argon free dashboard template
 - [Webkom] (https://github.com/0wczar/airframe-react) - For a beautiful react Dashboard
-- [Freepik] (https://free-pik.com) - For design files and templates
+- [Freepik] (https://freepik.com) - For design files and templates
 - All family, friends, collegues who helped and appreciated us in this journey.
