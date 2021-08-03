@@ -28,15 +28,15 @@ A basic GitHub repository example for new [Call for Code](https://developer.ibm.
 
 ### What's the problem?
 
-Part of the World Health Organization's guidance on limiting further spread of COVID-19 is to practice social distancing. As a result, schools in most affected areas are taking precautionary measures by closing their facilities. With school-aged children at home for an indeterminate amount of time, keeping them engaged, entertained, and on top of their education is important.
+Air pollution adversely affects human health, plant life, and agricultural crop production.  Agricultural crops can be injured when exposed to high concentrations of various air pollutants.  In a recent study, researches have analysed 30 years of data on yields of wheat and rice alongside data on air pollution and climate in India and concluded that significant decreases in yield could be attributed to air pollutants.
 
 ### How can technology help?
 
-Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well.
+Regular monitoring and controlling air pollution leads to increased yield from agricultural and livestock products.  Warning can be given to farmers using pollution related predictions, precautions can be taken to protect plants, plan for right cultivation time to get more yield.  There is an increased demand of localized IoT enabled automated air pollution monitoring systems which provides air pollution related information for people through an easy interface.  For realizing such a system gas sensors with advanced sensing technologies, IoT, cloud computing, and machine learning can be Incorporated.
 
 ### The idea
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+Developing and deploying low cost, low power, quicker, and real time air pollution pollution monitoring system at pollution affected area. For this, array sensor nodes are developed by incorporating major air pollutants sensors and NodeMCU.  This embedded system uploads the air pollution data to IBM cloud over Wi-Fi protocol. 
 
 ## Demo video
 
@@ -72,8 +72,8 @@ See below for our past road map before Call for Code 2021 submission.
 
 In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
-- [Polmo Hardware](./POLMO Sofware/)
-- [Polmo Software](./POLMO Hardware/)
+- [Polmo Hardware](./'POLMO Sofware'/)
+- [Polmo Software](./'POLMO Hardware'/)
 
 ## Live demo
 
