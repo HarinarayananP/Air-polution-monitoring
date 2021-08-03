@@ -28,15 +28,15 @@ A basic GitHub repository example for new [Call for Code](https://developer.ibm.
 
 ### What's the problem?
 
-Air pollution adversely affects human health, plant life, and agricultural crop production.  Agricultural crops can be injured when exposed to high concentrations of various air pollutants.  In a recent study, researches have analysed 30 years of data on yields of wheat and rice alongside data on air pollution and climate in India and concluded that significant decreases in yield could be attributed to air pollutants.
+Air pollution adversely affects human health, plant life, and agricultural crop production.  Agricultural crops can be injured when exposed to high concentrations of various air pollutants.  In a recent study, researchers have analysed 30 years of data on yields of wheat and rice alongside data on air pollution and climate in India and concluded that significant decreases in yield could be attributed to air pollutants.
 
 ### How can technology help?
 
-Regular monitoring and controlling air pollution leads to increased yield from agricultural and livestock products.  Warning can be given to farmers using pollution related predictions, precautions can be taken to protect plants, plan for right cultivation time to get more yield.  There is an increased demand of localized IoT enabled automated air pollution monitoring systems which provides air pollution related information for people through an easy interface.  For realizing such a system gas sensors with advanced sensing technologies, IoT, cloud computing, and machine learning can be Incorporated.
+Regular monitoring and controlling air pollution leads to increased yield from agricultural and livestock products. The warning can be given to farmers using pollution related predictions, precautions can be taken to protect plants, plan for the right cultivation time to get more yield.  There is an increased demand for localized IoT enabled automated air pollution monitoring systems which provide air pollution related information for people through an easy interface.  For realizing such a system gas sensors with advanced sensing technologies, IoT, cloud computing, and machine learning can be Incorporated.
 
 ### The idea
 
-Developing and deploying low cost, low power, quicker, and real time air pollution pollution monitoring system at pollution affected area. For this, array sensor nodes are developed by incorporating major air pollutants sensors and NodeMCU.  This embedded system uploads the air pollution data to IBM cloud over Wi-Fi protocol. 
+Developing and deploying low cost, low power, quicker, and real time air pollution monitoring system at pollution affected area. For this, array sensor nodes are developed by incorporating major air pollutants sensors and NodeMCU.  This embedded system uploads the air pollution data to the IBM Watson IoT cloud over Wi-Fi protocol. 
 
 ## Demo video
 
