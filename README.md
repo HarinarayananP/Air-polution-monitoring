@@ -2,7 +2,7 @@
 
 
 
-POLMO is a low cost IoT based Real time air pollution monitoring system.  It uses advanced sensing technologies to collect information about air pollution,  Real time sensor data  visualization, machine learning based air quality prediction, providing warning information for human beings, animals, and plants.
+POLMO is a low cost IoT based real time air pollution monitoring system.  It uses advanced sensing technologies to collect information about air pollution from the real world and provides  real time sensor data  visualization, machine learning based air quality prediction, warning information for human beings, animals, and plants due to air pollution.
 ## Contents
 
 - [Polmo Project](#polmo-advanced-air-pollution-monitoring-system)
