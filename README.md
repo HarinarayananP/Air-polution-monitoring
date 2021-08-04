@@ -1,4 +1,4 @@
-# POLMO - Advanced Air pollution monitoring system
+# POLMO - Advanced Air pollution Monitoring System
 
 
 
