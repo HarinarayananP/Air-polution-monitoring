@@ -1,10 +1,8 @@
 # POLMO - Advanced Air pollution monitoring system
 
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/get-started/) ![GitHub last commit](https://img.shields.io/github/last-commit/HarinarayananP/Air-polution-monitoring) ![GitHub repo size](https://img.shields.io/github/repo-size/HarinarayananP/Air-polution-monitoring) [![Website](https://img.shields.io/badge/View-Website-blue)](https://polmo-react-app.vercel.app/)
-
-A basic GitHub repository example for new [Call for Code](https://developer.ibm.com/callforcode/) projects and those that join the Call for Code with The Linux Foundation deployment initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need. And don't forget to [register for Call for Code 2021](https://developer.ibm.com/callforcode/get-started/)!
 
 
+POLMO is a low cost IoT based Real time air pollution monitoring system.  It uses advanced sensing technologies to collect information about air pollution,  Real time sensor data  visualization, machine learning based air quality prediction, providing warning information for human beings, animals, and plants.
 ## Contents
 
 - [Polmo Project](#polmo-advanced-air-pollution-monitoring-system)
