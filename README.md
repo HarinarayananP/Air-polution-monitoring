@@ -42,12 +42,13 @@ Developing and deploying low cost, low power, quicker, and real time air polluti
 
 ## The architecture
 
-![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![Single Node Data flow](./images/Block-Diagram---Github.jpg)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+1. Node Mcu from Polmo sensor node reads the sensor readings. 
+2. It will send the readings through MQTT Protocol to IBM Watson IOT
+3. Using Node Red Flows the readings are fetched from IBM Watson IOT and Stored it into IBM Cloudant DB
+4. A public API Endpoint is made using Fast API, It processes and delivers the contents from Cloudant DB to Apps
+5. A React Dashboard is created to visualize realtime data.
 
 ## Long description
 
