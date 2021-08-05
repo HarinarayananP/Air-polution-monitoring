@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-// import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import { withRouter } from 'react-router-dom';
 import _ from 'lodash';
 
@@ -199,7 +199,7 @@ class Layout extends React.Component {
     }
 
     render() {
-        const { children, favIcons } = this.props;
+        const { children } = this.props;
         const sidebar = findChildByType(children, LayoutSidebar);
         const navbars = findChildrenByType(children, LayoutNavbar);
         const content = findChildByType(children, LayoutContent);
@@ -230,18 +230,13 @@ class Layout extends React.Component {
                     changeMeta: (metaData) => { this.setState(metaData) }
                 }}
             >
-                {/*<Helmet>*/}
-                {/*    <meta charSet="utf-8" />*/}
-                {/*    <title>{ config.siteTitle + (this.state.pageTitle ? ` - ${this.state.pageTitle}` : '') }</title>*/}
-                {/*    <link rel="canonical" href={ config.siteCannonicalUrl } />*/}
-                {/*    <meta name="description" content={ this.state.pageDescription } />*/}
-                {/*    {*/}
-                {/*        _.map(favIcons, (favIcon, index) => (*/}
-                {/*            <link { ...favIcon } key={ index } />*/}
-                {/*        ))*/}
-                {/*    }*/}
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>{ config.siteTitle + (this.state.pageTitle ? ` - ${this.state.pageTitle}` : '') }</title>
+                    <link rel="canonical" href={ config.siteCannonicalUrl } />
+                    <meta name="description" content={ this.state.pageDescription } />
 
-                {/*</Helmet>*/}
+                </Helmet>
                 <ThemeClass>
                     {(themeClass) => (
                         <div className={ classNames(layoutClass, themeClass) } ref={ this.containerRef }>
