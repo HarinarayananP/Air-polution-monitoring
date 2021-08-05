@@ -64,7 +64,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   Serial.println();
 }
 
-PubSubClient client(AWS_endpoint, 1883, callback, espClient); //set MQTT port number to 8883 as per //standard
+PubSubClient client(server, 1883, callback, espClient); //set MQTT port number to 8883 as per //standard
 
 
 // Connect to WIFI.
