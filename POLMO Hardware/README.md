@@ -45,7 +45,13 @@ Depending upon the type of region, envornaments we have to design and implement 
 - Polmo Indoor node - For Factories, Large camps, Reserved areas.
 
 ### Polmo Rural node
-This node is indented to deploy in less areas like villages, farmlands. There will be only limited number of deployments in a large area. Sensors will only collect data in long intervals and go to sleep mode. 
+This node is indented to deploy in less areas like villages, farmlands. There will be only limited number of deployments in a large area. Sensors will only collect data in long intervals and go to sleep mode. Long range low power communications like LoraWan will be used to connect this node to its master.
 
 ![Rural node data flow](./../docs/images/Polmo-Rural-DataFlow.jpg)
+
+### Polmo Urban node
+Polmo Urban nodes will be deployed in highly populated, crouded areas where pollution will affect large number of beings. This node will fetch sensor readings in seconds and send to its master node. Urban nodes will be deploys in short range and even a single town will contains multiple nodes. Urban nodes will have much more accuracy and used to display realtime readings.
+![Urban node data flow](./../docs/images/Polmo-Urban-DataFlow.jpg)
+
+
 
