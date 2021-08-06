@@ -103,6 +103,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 - **Harinarayanan P** - [GitHub](https://github.com/HarinarayananP)
 - **Amjed Ali K** - [GitHub](https://github.com/amjed-ali-k)
+- **Sukhdev K** - [GitHub](https://github.com/Sukhdev)
 
 ## License
 
