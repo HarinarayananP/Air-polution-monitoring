@@ -9,7 +9,7 @@
 POLMO is a low cost IoT based real time air pollution monitoring system.  It uses advanced sensing technologies to collect information about air pollution from the real world and provides  real time sensor data  visualization, machine learning based air quality prediction, warning information for human beings, animals, and plants due to air pollution.
 ## Contents
 
-- [Polmo Project](#polmo-advanced-air-pollution-monitoring-system)
+- [Polmo - Air Pollution Monitoring System](#polmo---air-pollution-monitoring-system)
   - [Contents](#contents)
   - [Short description](#short-description)
     - [What's the problem?](#whats-the-problem)
@@ -25,6 +25,7 @@ POLMO is a low cost IoT based real time air pollution monitoring system.  It use
   - [Contributing](#contributing)
   - [Authors](#authors)
   - [License](#license)
+  - [Acknoledgement](#acknoledgement)
 
 ## Short description
 
@@ -75,8 +76,8 @@ See below for our past road map before Call for Code 2021 submission.
 
 In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
-- [Polmo Hardware](./POLMO%20Sofware/)
-- [Polmo Software](./POLMO%20Hardware/)
+- [Polmo Software](./POLMO%20Sofware/)
+- [Polmo Hardware](./POLMO%20Hardware/)
 
 ## Live demo
 
@@ -109,7 +110,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
-## Acknoledgemnt
+## Acknoledgement
 
 We sincerly inform our gratitudes to
 - [Sebastián Ramírez] (https://github.com/tiangolo) - For FastAPI framework
