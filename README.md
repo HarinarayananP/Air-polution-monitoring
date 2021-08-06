@@ -42,11 +42,11 @@ Developing and deploying low cost, low power, quicker, and real time air polluti
 
 ## Demo video
 
-[![Watch the video](https://github.com/HarinarayananP/Air-polution-monitoring/blob/main/images/YT-Thumbnail.png)](https://youtu.be/6nTHpyTWLMA)
+[![Watch the video](./docs/images/YT-Thumbnail.png)](https://youtu.be/6nTHpyTWLMA)
 
 ## The architecture
 
-![Single Node Data flow](./images/Block-Diagram---Github.jpg)
+![Single Node Data flow](./docs/images/Block-Diagram---Github.jpg)
 
 1. Node Mcu from Polmo sensor node reads the sensor readings. 
 2. It will send the readings through MQTT Protocol to IBM Watson IOT
@@ -68,15 +68,15 @@ The project currently does the following things.
 
 See below for our past road map before Call for Code 2021 submission.
 
-![RoadmapSW](./images/Road-map-sw.png)
-![RoadmapHW](./images/Road-map-hw.png)
+![RoadmapSW](./docs/images/Road-map-sw.png)
+![RoadmapHW](./docs/images/Road-map-hw.png)
 
 ## Getting started
 
 In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
-- [Polmo Hardware](./'POLMO Sofware'/)
-- [Polmo Software](./'POLMO Hardware'/)
+- [Polmo Hardware](./POLMO%20Sofware/)
+- [Polmo Software](./POLMO%20Hardware/)
 
 ## Live demo
 
@@ -99,6 +99,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 ## Authors
 
 <a href="https://github.com/HarinarayananP/Air-polution-monitoring/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=HarinarayananP/Air-polution-monitoring" />
 </a>
 
 - **Harinarayanan P** - [GitHub](https://github.com/HarinarayananP)
