@@ -2,17 +2,17 @@
 
 
 ## Contents
-
-- [View Code](#code)
-- [Hardware Photo](#hardware-photo)
-- [Designs of Multiple node](#designs-of-multiple-node)
-    - [Polmo Rural node](polmo-rural-node)
-    - [Urban Polmo node]()
-    - [Indoor Closed Network Polmo node]()
+- [POLMO - Hardware](#polmo---hardware)
+  - [Contents](#contents)
+  - [Code](#code)
+  - [Hardware Photo](#hardware-photo)
+  - [Designs of Multiple node](#designs-of-multiple-node)
+    - [Polmo Rural node](#polmo-rural-node)
+    - [Polmo Urban node](#polmo-urban-node)
+    - [Indoor Closed Network Polmo node](#indoor-closed-network-polmo-node)
 
 
 ## Code
-
 Node Mcu (ESP8266 1.0) code can be viewed by clicking this [link](./Node%20Mcu%20Code/mqttclient.ino).
 You have to update the WiFi credentials in the code shown below.
 
@@ -46,15 +46,16 @@ Depending upon the type of region, envornaments we have to design and implement 
 
 ### Polmo Rural node
 This node is indented to deploy in less areas like villages, farmlands. There will be only limited number of deployments in a large area. Sensors will only collect data in long intervals and go to sleep mode. Long range low power communications like LoraWan will be used to connect this node to its master.
-
+<br><br>
 ![Rural node data flow](./../docs/images/Polmo-Rural-DataFlow.jpg)
 
 ### Polmo Urban node
 Polmo Urban nodes will be deployed in highly populated, crouded areas where pollution will affect large number of beings. This node will fetch sensor readings in seconds and send to its master node. Urban nodes will be deploys in short range and even a single town will contains multiple nodes. Urban nodes will have much more accuracy and used to display realtime readings.
+<br><br>
 ![Urban node data flow](./../docs/images/Polmo-Urban-DataFlow.jpg)
 
 
 ### Indoor Closed Network Polmo node
 Indoor nodes are made for deployment inside factories and industries. It will be used for particular purposes and safety of the workers. These nodes may not have master nodes and will be directly connected to LAN networks. 
-
+<br><br>
 ![Indoor node data flow](./../docs/images/Polmo-Closed-DataFlow.jpg)
