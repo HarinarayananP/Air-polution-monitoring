@@ -54,4 +54,7 @@ Polmo Urban nodes will be deployed in highly populated, crouded areas where poll
 ![Urban node data flow](./../docs/images/Polmo-Urban-DataFlow.jpg)
 
 
+### Indoor Closed Network Polmo node
+Indoor nodes are made for deployment inside factories and industries. It will be used for particular purposes and safety of the workers. These nodes may not have master nodes and will be directly connected to LAN networks. 
 
+![Indoor node data flow](./../docs/images/Polmo-Closed-DataFlow.jpg)
