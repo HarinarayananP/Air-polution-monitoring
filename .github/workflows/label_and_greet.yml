@@ -14,7 +14,6 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-
     steps:
     - uses: actions/labeler@v2
       with:
@@ -29,4 +28,11 @@ jobs:
         issue-message: Thankyou for your contribution 🎉. Kindly write a breif description here about your pull request here. It will help us to look into it and know better. 
         # Comment to post on an individual's first pull request
         pr-message: Thanks for your contribution ✨
+    - name: Send Telegram notification.
+      uses: yanzay/notify-telegram@v0.1.0
+      if: always()
+      with:
+        chat: ${{ secrets.CHAT }} # user id or channel name secret
+        token: ${{ secrets.TOKEN }} # token secret
+        status: ${{ job.status }} # do not modify this line
 
