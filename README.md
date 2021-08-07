@@ -76,8 +76,8 @@ See below for our past road map before Call for Code 2021 submission.
 
 In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
-- [Polmo Software](./POLMO%20Sofware/)
-- [Polmo Hardware](./POLMO%20Hardware/)
+- [![Polmo Software](./docs/images/software-button.png)](./POLMO%20Sofware/)
+- [![Polmo Hardware](./docs/images/hardware-button.png)](./POLMO%20Hardware/)
 
 ## Live demo
 
