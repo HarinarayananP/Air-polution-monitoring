@@ -21,6 +21,9 @@ POLMO is a low cost IoT based real time air pollution monitoring system.  It use
   - [Project roadmap](#project-roadmap)
   - [Getting started](#getting-started)
   - [Live demo](#live-demo)
+  - [Applications](#applications)
+    - [Mesh Network - Simple application](#mesh-network---simple-application)
+    - [Mesh Network - Vehicle Traffic](#mesh-network---vehicle-traffic)
   - [Built with](#built-with)
   - [Contributing](#contributing)
   - [Authors](#authors)
@@ -74,7 +77,7 @@ See below for our past road map before Call for Code 2021 submission.
 
 ## Getting started
 
-You can find the details of each section by clicking the image below.
+You can find the details of each section by clicking the image 🖼️ below 🔻 .
 
 [![Polmo Software](./docs/images/software-button.png)](./POLMO%20Sofware/)
 [![Polmo Hardware](./docs/images/hardware-button.png)](./POLMO%20Hardware/)
@@ -85,6 +88,13 @@ By clicking this [link you](https://polmo-react-app.vercel.app/) can visit the l
 
 [![VisitWebsite](https://img.shields.io/badge/Polmo-Website-a13d5e?style=social&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAixJREFUOE9Vk79rFEEUxz9vw0kQRPBHKaRQO0FJLyiC2hjQHAS9PbN38ZqITYyWnmBpLBQLJXd7ZhKJXqI2ohZiEdAq8Q8QG4s0QQu5eMjJPZmZ3c3esAw7M2/e+77v9zuCHeJmPzTZEKjrneAQ38aqLL22IemR//H3/Ac0GT9Yob1l14K6mCblM4LOVsScVU1P0io+pfhweCalWwrbkZrHaYEWZdNHi126B6ZZ7dgLLynu6jB8sYJZzsDbXDHhtKKPBJnpIW8L9I/1kQWB3UA5wpiYaFjprQiyGWFqDlMChCaXrwpBKwMoYGF7mIKqfg+Q3wonEB5EamYG6GtRuqTISo5OT0/Sj2XFV7OT3I1YqNu14wBRGloeE/SNPRe1ceroHEjg8ditm1XMXCbBvBT3DTH8BeWovyGukE2UqTuw1o0h5GQZsy1PqBUKdD8InHKXfb+JuF7ifDLXgedmNZKlosSETxG9lkU6DzjwiVlcP3nvZNwI3JOYyZG+/AsDDULQI5nJdipllvPI3MEvoB2ImryJJab0ELju2oA1Uf2q0BHYD1JLqP3UYev8DXn/d0fGxA2xls6BvAN6fXojU7zYTOVraPhR4LQKs1U19z1LmbTeNQ0u7AnY+1OFVxU1E0lex0mTcFxE26o6WpHFDSe1bS7nFZezQfhZ0NsRi2upS22oV+vP+g8OH69Lve/ga2Ll/CueJ5yYUrPsHllaJhGkxZXRSZ6vJ+I6ef8DHNju1CxiaEQAAAAASUVORK5CYII=)](https://polmo-react-app.vercel.app/)
 
+
+## Applications
+Here are some animations which we are planning to build. 
+### Mesh Network - Simple application
+![Mesh Network Plan](docs/images/Application-Mesh-Simple-Working.gif)
+### Mesh Network - Vehicle Traffic
+![Mesh Network Application](docs/images/Application-Mesh-GPS-Assist.gif)
 
 ## Built with
 
