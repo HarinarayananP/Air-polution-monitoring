@@ -74,10 +74,10 @@ See below for our past road map before Call for Code 2021 submission.
 
 ## Getting started
 
-In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
+You can find the details of each section by clicking the image below.
 
-- [Polmo Software](./POLMO%20Sofware/)
-- [Polmo Hardware](./POLMO%20Hardware/)
+[![Polmo Software](./docs/images/software-button.png)](./POLMO%20Sofware/)
+[![Polmo Hardware](./docs/images/hardware-button.png)](./POLMO%20Hardware/)
 
 ## Live demo
 
@@ -89,8 +89,8 @@ By clicking this [link you](https://polmo-react-app.vercel.app/) can visit the l
 ## Built with
 
 - [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-- [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-- [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The FastAPI Web Framework
+- [IBM Watson IOT](https://cloud.ibm.com/catalog?search=IOT#search_results) - The Internet of things platform
+- [IBM Cloud Foundry](https://cloud.ibm.com/catalog?search=cloud%20foundry#search_results) - The Application Containers
 
 
 ## Contributing
