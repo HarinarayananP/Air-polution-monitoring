@@ -77,7 +77,7 @@ See below for our past road map before Call for Code 2021 submission.
 
 ## Getting started
 
-You can find the details of each section by clicking the image below.
+You can find the details of each section by clicking the image 🖼️ below 🔻 .
 
 [![Polmo Software](./docs/images/software-button.png)](./POLMO%20Sofware/)
 [![Polmo Hardware](./docs/images/hardware-button.png)](./POLMO%20Hardware/)
