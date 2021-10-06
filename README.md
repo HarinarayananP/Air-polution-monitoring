@@ -45,7 +45,7 @@ Developing and deploying low cost, low power, quicker, and real time air polluti
 
 ## Demo video
 
-[![Watch the video](./docs/images/YT-Thumbnail.png)](https://youtu.be/6nTHpyTWLMA)
+[![Watch the video](./docs/images/YT-Thumbnail.png)](https://www.youtube.com/watch?v=G5Q1Tb0h1tY)
 
 ## The architecture
 
