@@ -5,7 +5,7 @@
 [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/get-started/) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/HarinarayananP/Air-polution-monitoring) 
 
-POLMO is a low cost IoT based real time air pollution monitoring system.  It uses advanced sensing technologies to collect information about air pollution from the real world and provides  real time sensor data  visualization, machine learning based air quality prediction, warning information for human beings, animals, and plants due to air pollution.
+POLMO is a low cost IoT based real time air pollution monitoring system. It uses advanced sensing technologies to collect pollution information from the real world sensors and provides real time data visualization, machine learning based air quality prediction, warning information for human beings, animals, and plants due to air pollution.
 ## Contents
 
 - [Polmo - Air Pollution Monitoring System](#polmo---air-pollution-monitoring-system)
@@ -33,7 +33,7 @@ POLMO is a low cost IoT based real time air pollution monitoring system.  It use
 
 ### What's the problem?
 
-Air pollution adversely affects human health, plant life, and agricultural crop production.  Agricultural crops can be injured when exposed to high concentrations of various air pollutants.  In a recent study, researchers have analysed 30 years of data on yields of wheat and rice alongside data on air pollution and climate in India and concluded that significant decreases in yield could be attributed to air pollutants.
+Air pollution adversely affects human health, plant life, and agricultural crop production. Agricultural crops can be injured when exposed to high concentrations of various air pollutants. In a recent study, researchers have analysed 30 years of data on yields of wheat and rice alongside data on air pollution and climate in India and concluded that significant decreases in yield could be attributed to air pollutants.
 
 ### How can technology help?
 
